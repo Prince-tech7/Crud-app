@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class EtudiantController extends Controller
 {
-    //
+    //Creation de la fonction etudiant
+    public function liste_etudiant(){
+        return view('etudiant.liste');
+    }
 }
